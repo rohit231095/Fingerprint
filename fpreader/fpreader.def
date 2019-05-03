@@ -1,0 +1,19 @@
+; fpreader.def : Declares the module parameters for the DLL.
+
+LIBRARY      "fpreader"
+DESCRIPTION  'fpreader Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+    GetLastError	 @1
+	ConnectUsb		 @2
+	DisConnectUsb	 @3
+	Getalgorithm     @4
+	OnoffLED	     @5
+	DetectFinger	 @6
+	DetectCard		 @7
+	GetTemplet		 @8
+	GetImage	     @9
+	GetMergeChar	 @10
+	VerifyFinger	 @11
+	MatchTwoFinger	 @12

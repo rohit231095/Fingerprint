@@ -1,0 +1,9 @@
+E:\ISO19794\c#_demo\fpreader_demo\bin\Release\fpreader_demo.exe.config
+E:\ISO19794\c#_demo\fpreader_demo\bin\Release\fpreader_demo.exe
+E:\ISO19794\c#_demo\fpreader_demo\bin\Release\fpreader_demo.pdb
+E:\ISO19794\c#_demo\fpreader_demo\obj\Release\fpreader_demo.Form1.resources
+E:\ISO19794\c#_demo\fpreader_demo\obj\Release\fpreader_demo.Properties.Resources.resources
+E:\ISO19794\c#_demo\fpreader_demo\obj\Release\fpreader_demo.csproj.GenerateResource.Cache
+E:\ISO19794\c#_demo\fpreader_demo\obj\Release\fpreader_demo.exe
+E:\ISO19794\c#_demo\fpreader_demo\obj\Release\fpreader_demo.pdb
+E:\ISO19794\c#_demo\fpreader_demo\obj\Release\fpreader_demo.csprojResolveAssemblyReference.cache

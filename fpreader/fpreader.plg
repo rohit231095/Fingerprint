@@ -1,0 +1,101 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: fpreader - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/fpreader.res" /d "NDEBUG" /d "_AFXDLL" "E:\ISO19794\fpreader\fpreader.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP894E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/fpreader.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\ISO19794\fpreader\fpreader.cpp"
+"E:\ISO19794\fpreader\SBPC.cpp"
+"E:\ISO19794\fpreader\UsbCom.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP894E.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP894F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/fpreader.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\ISO19794\fpreader\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP894F.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP8950.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/fpreader.pdb" /machine:I386 /def:".\fpreader.def" /out:"Release/fpreader.dll" /implib:"Release/fpreader.lib" 
+.\Release\fpreader.obj
+.\Release\SBPC.obj
+.\Release\StdAfx.obj
+.\Release\UsbCom.obj
+.\Release\fpreader.res
+.\eAlgDLL.lib
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP8950.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+fpreader.cpp
+E:\ISO19794\fpreader\fpreader.cpp(13) : warning C4109: unexpected identifier 'dll'
+SBPC.cpp
+UsbCom.cpp
+Generating Code...
+Linking...
+   Creating library Release/fpreader.lib and object Release/fpreader.exp
+
+
+
+<h3>Results</h3>
+fpreader.dll - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: fpreader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/fpreader.res" /d "_DEBUG" /d "_AFXDLL" "E:\ISO19794\fpreader\fpreader.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP8CBA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug/fpreader.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\ISO19794\fpreader\fpreader.cpp"
+"E:\ISO19794\fpreader\SBPC.cpp"
+"E:\ISO19794\fpreader\UsbCom.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP8CBA.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP8CBB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug/fpreader.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\ISO19794\fpreader\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP8CBB.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP8CCC.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/fpreader.pdb" /debug /machine:I386 /def:".\fpreader.def" /out:"../fpreader.dll" /implib:"Debug/fpreader.lib" /pdbtype:sept 
+.\Debug\fpreader.obj
+.\Debug\SBPC.obj
+.\Debug\StdAfx.obj
+.\Debug\UsbCom.obj
+.\Debug\fpreader.res
+.\eAlgDLL.lib
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP8CCC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+fpreader.cpp
+E:\ISO19794\fpreader\fpreader.cpp(13) : warning C4109: unexpected identifier 'dll'
+SBPC.cpp
+UsbCom.cpp
+Generating Code...
+Linking...
+   Creating library Debug/fpreader.lib and object Debug/fpreader.exp
+
+
+
+<h3>Results</h3>
+fpreader.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
